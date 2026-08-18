@@ -4,8 +4,13 @@
  */
 
 // EDITÁVEL — observação personalizada adicional do diagnóstico
-export const OBSERVACAO_PERSONALIZADA =
-  "[Espaço para uma observação personalizada — algo específico que percebi no perfil da Aida]";
+export const MINHA_OPINIAO_PROFISSIONAL = `Você entrega um trabalho técnico e estético impecável, mas hoje o seu Instagram funciona mais como uma vitrine bonita do que como uma ferramenta ativa de vendas.
+
+O seu maior gargalo não é a qualidade da sua foto — é a forma como o seu serviço está apresentado. Sem uma estrutura estratégica na sua Bio e nos seus Destaques para educar e encantar quem chega, você acaba atraindo pessoas que procuram apenas preço, pedem orçamento no WhatsApp e somem sem fechar.
+
+Ajustando a sua narrativa de marca, transformando seus Destaques em um funil simples de conversão e posicionando você como a referência do seu nicho, nós paramos de perder vendas para a concorrência, atraímos clientes qualificados e fazemos o mercado pagar exatamente o valor que o seu trabalho vale.`;
+
+export const OBSERVACAO_PERSONALIZADA = MINHA_OPINIAO_PROFISSIONAL;
 
 export const CONTATO = {
   email: "jwillamescosta@gmail.com",

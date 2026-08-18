@@ -4,7 +4,7 @@ import { ArrowUpRight, Mail, Instagram } from "lucide-react";
 import {
   CONTATO,
   DIAGNOSTICO,
-  OBSERVACAO_PERSONALIZADA,
+  MINHA_OPINIAO_PROFISSIONAL,
   PACOTES,
   PROCESSO,
   SOLUCOES,
@@ -115,13 +115,13 @@ function Proposta() {
 
             <Reveal as="li" delay={220} className="print-keep">
               <div className="rounded-lg border border-dashed border-primary/40 bg-secondary/40 p-6">
-                <Eyebrow>Observação personalizada</Eyebrow>
-                <p
-                  className="mt-3 text-base leading-[1.8] text-muted-foreground italic"
+                <Eyebrow>Minha opinião profissional</Eyebrow>
+                <div
+                  className="mt-3 whitespace-pre-line text-base leading-[1.8] text-foreground/85 italic space-y-3"
                   data-editable="observacao-personalizada"
                 >
-                  {OBSERVACAO_PERSONALIZADA}
-                </p>
+                  {MINHA_OPINIAO_PROFISSIONAL}
+                </div>
               </div>
             </Reveal>
           </ul>
