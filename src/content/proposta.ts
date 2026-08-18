@@ -41,7 +41,6 @@ export const PACOTES = [
     tag: "Ponto de partida · Entrega única",
     descricao:
       "Análise completa do Instagram e presença digital, com plano documentado de posicionamento e comunicação.",
-    preco: "R$ 400",
     periodo: "pagamento único",
     destaque: false,
   },
@@ -50,7 +49,6 @@ export const PACOTES = [
     tag: "Para quem quer manter o controle da produção",
     descricao:
       "Direcionamento contínuo — você continua postando, a consultoria constrói estratégia, calendário editorial e acompanha resultados quinzenalmente.",
-    preco: "R$ 650",
     periodo: "por mês · mínimo 3 meses",
     destaque: false,
   },
@@ -59,7 +57,6 @@ export const PACOTES = [
     tag: "Recomendado · Você fotografa, a consultoria cuida do resto",
     descricao:
       "Estratégia + produção de conteúdo a partir do acervo de fotos, calendário de postagens, legendas com a sua voz, acompanhamento mensal de resultados.",
-    preco: "R$ 1.100",
     periodo: "por mês · mínimo 3 meses",
     destaque: true,
   },
