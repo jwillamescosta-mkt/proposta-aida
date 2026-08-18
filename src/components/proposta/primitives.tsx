@@ -60,7 +60,7 @@ export function Reveal({
   );
 }
 
-export function Eyebrow({ children, className }: { children: ReactNode; className?: string }) {
+export function Eyebrow({ children, className }: { children: ReactNode; className?: string | undefined }) {
   return (
     <span
       className={cn(
