@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Posicionamento, estratégia de conteúdo e gestão de redes para transformar 7 anos de acervo em indicação.",
+          "Proposta de consultoria de posicionamento, conteúdo e gestão de redes sociais para Aida, fotógrafa de família, gestante e infância.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
