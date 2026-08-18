@@ -155,7 +155,7 @@ function Proposta() {
       {/* PACOTES */}
       <Section className="border-y border-border bg-muted">
         <Reveal>
-          <Eyebrow>Investimento</Eyebrow>
+          <Eyebrow>Modalidades</Eyebrow>
           <SectionTitle className="mt-4 max-w-xl">Caminhos possíveis</SectionTitle>
         </Reveal>
 
@@ -177,10 +177,7 @@ function Proposta() {
                   {p.descricao}
                 </p>
                 <Rule className="my-7" />
-                <p className="font-serif text-4xl font-light tracking-tight text-foreground tabular-nums">
-                  {p.preco}
-                </p>
-                <p className="mt-2 font-sans text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                <p className="font-sans text-xs uppercase tracking-[0.18em] text-muted-foreground">
                   {p.periodo}
                 </p>
               </article>
